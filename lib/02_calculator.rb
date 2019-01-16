@@ -11,7 +11,7 @@ def sum(ary)
 end
 
 def multiply(a,b)
-	return a*b
+	return a * b
 end
 
 def power(a,b)
@@ -20,10 +20,14 @@ end
 
 def factorial(number)
 	n = number
-	fact = 1
-	while n > 0
-		fact = fact * n
-		n -=  1
+	if n == 0
+		fact = 1
+	else
+		fact = 1
+		while n > 0
+			fact = fact * n
+			n -=  1
+		end
 	end
-	#puts fact
+	return fact
 end

@@ -9,8 +9,9 @@ describe 'who is the biggest number' do
     expect(who_is_bigger(42, 84, 21)).to eq("b is bigger")
     expect(who_is_bigger(42, 21, 84)).to eq("c is bigger")
   end
-end
 
+end
+    
 describe 'crazy stuff on strings' do
   # Reverse, upcase then removes all L, T and A.
   # Hint: google ruby string
